@@ -1,0 +1,138 @@
+html{ /* Beginning of sytle tag for the whole page. */
+    background-color:#3565B9; /* Background colour. */
+    font-family: 'Montserrat'; /* Font type no web page. */
+} /* End of sytle tag for the whole page. */
+h2{ /* Beginning of sytle tag for heading 2 locations. */
+    color: black; /* Colour of font. */
+    border-radius: 20px; /* How rounded the corner is. */ 
+    text-decoration: underline; /* Underlining the text selected. */
+    font-size: 50px; /* How big the size of the font is on the web page. */
+
+} /* End of sytle tag for heading 2 locations. */
+
+.buttonone { /* Beginning of sytle tag for the main buttons. */
+    background-color: #fff5;  /* Background colour. */
+    color: black; /* Colour of font. */
+    border-color: black;/* The colour of the button outline. */ 
+    font-size: 100%; /* How big the size of the font is on the web page. */
+    margin:0; /* Space around the elements e.g. space between other buttons. */
+    padding: 9px; /* How much space there is between the text and the border outline. */
+    cursor: pointer; /* A pointer to indicate there is a link, no change to code because it is a pointer. */
+    border-radius: 25px; /* How rounded the corner is. */ 
+} /* End of sytle tag for the main buttons. */
+button:hover { /* Beginning of sytle tag for the hover over the main buttons. */
+    opacity: 0.7; /* How faded the text is when hovered over. */
+} /* End of sytle tag for the hover over the main buttons. */
+.nav { /* Beginning of sytle tag for the other buttons. */
+    background-color: #fff5;  /* Background colour. */
+    opacity: 200%;
+    color: black; /* Colour of font. */
+    font-size: 100%; /* How big the size of the font is on the web page. */
+    margin: 7px; /* Space around the elements e.g. space between other buttons. */
+    padding: 3px; /* How much space there is between the text and the border outline. */
+    cursor: pointer; /* A pointer to indicate there is a link, no change to code because it is a pointer. */
+    border-radius: 25px; /* How rounded the corner is. */ 
+} /* End of sytle tag for the other buttons. */
+.nav:hover { /* Beginning of sytle tag for the hover over the other buttons. */
+    opacity: 0.7; /* How faded the text is when hovered over. */
+} /* End of sytle tag for the hover over the other buttons. */
+
+.imagebox {
+    
+    width: 100%;
+    height: auto;
+    border-radius: 25px; /* How rounded the corner is. */ 
+}
+.downloadbutton {  /* Beginning of sytle tag for the download buttons. */
+    background-color: #fff5;  /* Background colour. */
+    border-color:black; /* The colour of the button outline. */
+    color: black; /* Colour of font. */
+    font-size: 100%; /* How big the size of the font is on the web page. */
+    margin: 7px; /* Space around the elements e.g. space between other buttons. */
+    height: 50px; /* Height of element e.g. height of image. */
+    cursor: pointer; /* A pointer to indicate there is a link, no change to code because it is a pointer. */
+    border-radius: 25px; /* How rounded the corner is. */ 
+    
+} /* End of sytle tag for the download buttons. */
+.download:hover {  /* Beginning of sytle tag for the hover over the download buttons. */
+    opacity: 0.7; /* How faded the text or button is when hovered over. */
+} /* End of sytle tag for the hover over the download buttons. */
+
+body{ /* Beginning of sytle tag for the body. */
+    text-align: center; /* Aligns the text to the requested location. */
+    color:black; /* Colour of font. */
+} /* End of sytle tag for the body. */
+
+.fa:hover { /* Beginning of sytle tag for the hover over the social media buttons. */
+    opacity: 0.7; /* How faded the text or button is when hovered over. */
+} /* End of sytle tag for the hover over the social media buttons. */
+
+.fa-facebook { /* Beginning of sytle tag for the Facebook button. */
+  background: #3B5998; /* Background colour. */
+  color: white; /* Colour of font. */
+} /* End of sytle tag for the Facebook button. */
+
+.fa-twitter { /* Beginning of sytle tag for the Twitter button. */
+  background: #55ACEE; /* Background colour. */
+  color: white; /* Colour of font. */
+} /* End of sytle tag for the Twitter button. */
+.fa-instagram {  /* Beginning of sytle tag for the Instagram button. */
+  background: #125688; /* Background colour. */
+  color: white; /* Colour of font. */
+} /* End of sytle tag for the Instagram button. */
+
+.bottom { /* Beginning of sytle tag for bottom. */
+  left: 0; /* Position of element. */
+  top: 50%; /* Position of element. */
+  width: 100%; /* Width of element e.g. width of image. */
+  text-align: center; /* Aligns the text to the requested location. */
+  font-size: 18px; /* Font size for the text in the tag selected. */
+} /* End of sytle tag for bottom. */
+
+.parallax { /* Beginning of sytle tag for the parallax on the home page. */
+  background-image: url("Images/Home_Page2.JPG"); /* Image for the background. */
+
+  min-height: 400px;  /* Height of element e.g. height of image. */
+
+  background-attachment: fixed;  /* How big the size of the font is on the web page. */
+ /* Image position for background wheather it's fixed etc. */
+  background-position: center; /* Position of background image. */
+  background-repeat: repeat; /* If the image is repeated on the background on the web page. */
+  background-size: cover; /* How big the background image is. */
+} /* End of sytle tag for the parallax on the home page. */
+
+div.transbox { /* Beginning of sytle tag for transparent box in the body. */
+  margin: 0px; /* Space around the elements e.g. space between other buttons. */
+  background-color: #4677C8; /* Background colour. */
+border-radius: 60px; /* How rounded the corner is. */ 
+top:30%; /* Position of element. */
+left: 17%; /* Position of element. */
+    right: 17%; /* Position of element. */
+    bottom: 10%; /* Position of element. */
+    
+} /* End of sytle tag for transparent box in the body. */
+
+footer { /* Beginning of sytle tag for the footer of the page. */
+    color: black; /* Colour of font. */
+    background-color: #DEDEE0; /* Background colour. */
+    position: fixed; /* Position of element. */
+    bottom: 0; /* Position of element. */
+    width: 100%; /* Position of element. */
+    
+
+} /* End of sytle tag for the footer of the page. */
+
+
+.column { /* Beginning of sytle tag for the columns in the table. */
+  float: left; /* Position of element. */
+  width: 30%; /* Width of element e.g. width of image. */
+    height: 25%; /* Height of element e.g. height of image. */
+  padding: 10px; /* How much space there is between the text and the border outline. */
+  
+} /* End of sytle tag for the columns in the table. */
+.row::after { /* Beginning of sytle tag for the rows in the table. */
+  content: ""; /* How much content is in the table (e.g.Body only). */
+  clear: both;  /* Which side the table cant float on (Not on the left of right side of the page). */
+  display: table; /* Behavour of a text element. */ 
+} /* End of sytle tag for the rows in the table. */
+
