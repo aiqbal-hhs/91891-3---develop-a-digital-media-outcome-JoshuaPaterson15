@@ -29,9 +29,10 @@ button:hover { /* Beginning of sytle tag for the hover over the main buttons. */
     color: black; /* Colour of font. */
     font-size: 100%; /* How big the size of the font is on the web page. */
     margin: 7px; /* Space around the elements e.g. space between other buttons. */
-    padding: 3px; /* How much space there is between the text and the border outline. */
+    padding: 0px 7px;  /* How much space there is between the text and the border outline. */
     cursor: pointer; /* A pointer to indicate there is a link, no change to code because it is a pointer. */
     border-radius: 25px; /* How rounded the corner is. */ 
+    display: inline-block; /* Prevent overlapping of buttons. */
 } /* End of sytle tag for the other buttons. */
 .nav:hover { /* Beginning of sytle tag for the hover over the other buttons. */
     opacity: 0.7; /* How faded the text is when hovered over. */
